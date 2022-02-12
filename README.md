@@ -16,9 +16,14 @@ Pour finir, les conteneurs permettent à une application d'être empaquetée et 
 
 ## Fonctionnement de Docker
 
+Le principe de fonctionnement de Docker est simimaire à celui de LXC :
+1. Des coneneurs en cours d'exécution partagent le même noyau Linux, ce qui les rend plus léger que des machines virtuelles.
+2. Des conteneurs en cours d'exécution sont isolés les uns des autres et on uniquement accèes à une quantité limitée de ressources système.
+
+> **Note** : LXC est un système de virtualisation utlisant l'isolation comme méthode de cloisennement au niveau du système d'opération
+> **Note** : Un conteneur est un système logiciel utlisant l'isolation comme méthode de cloisennement au niveau du système d'opération
 
 > **Note** : https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-que-docker/
-
 
 Docker utilise le noyau Linux et des fonction de ce noyau pour séparer les processus afin qu'ils s'exécutent de façon independante.
 Le but de cette séparation est d'optimiser l'utilisation de notre infrastructure, tout en bénéficiant du même niveau se sécurité que celui des systèmes distincts.
