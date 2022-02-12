@@ -24,7 +24,7 @@ Le principe de fonctionnement de Docker est simimaire à celui de LXC :
 
 > **Note** : Un conteneur est un système logiciel utlisant l'isolation comme méthode de cloisennement au niveau du système d'exploitation.
 
-![alt text]()
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Capture.PNG)
 
 > **Note** : https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-que-docker/
 
