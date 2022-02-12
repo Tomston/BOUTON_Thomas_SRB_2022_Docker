@@ -16,7 +16,7 @@ Pour finir, les conteneurs permettent à une application d'être empaquetée et 
 
 ## Fonctionnement de Docker
 
-**Note** : https://www.redhat.com/fr/topics/containers/what-is-docker#les-avantages-des-conteneurs-docker
+> **Note** : https://www.redhat.com/fr/topics/containers/what-is-docker#les-avantages-des-conteneurs-docker
 
 ## Fonctionnement de l'architecture
 
