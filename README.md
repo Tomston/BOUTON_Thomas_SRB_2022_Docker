@@ -7,9 +7,10 @@ Un conteneur permet aux développeurs d'isoler leurs applications de leur envrio
 
 Les points forts de Docker sont sa fléxibilité et sa légèreté. En effet, les conteneurs Docker sont constuits à partir des images Docker (quelques MB au minimum) et permettent aux dévéloppeurs de créer, déployer et exécuter efficacement des applications distribuées.
 
-Cependant, il ne faut pas confondre virtualisation et conteneurisation. La conteneurisation est une forme plus légère qui s'appuie sur certaines parties de la machine hôte pour son fonctionnement.
+Cependant, il ne faut pas confondre virtualisation et conteneurisation. La conteneurisation est une forme plus légère qui s'appuie sur certaines parties de la machine hôte pour fonctionner
 
-En outre,
+En outre, les conteneurs permettant à une application d'être empaquetée et déplacée facilement, augmentant ainsi la simplicité d'une infrastructure.
+
 
 ## Fonctionnement de l'architecture
 
