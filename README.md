@@ -20,9 +20,9 @@ Le principe de fonctionnement de Docker est simimaire à celui de LXC :
 1. Des coneneurs en cours d'exécution partagent le même noyau Linux, ce qui les rend plus léger que des machines virtuelles.
 2. Des conteneurs en cours d'exécution sont isolés les uns des autres et on uniquement accèes à une quantité limitée de ressources système.
 
-> **Note** : LXC est un système de virtualisation utlisant l'isolation comme méthode de cloisennement au niveau du système d'opération.
+> **Note** : LXC est un système de virtualisation utlisant l'isolation comme méthode de cloisennement au niveau du système d'exploitation.
 
-> **Note** : Un conteneur est un système logiciel utlisant l'isolation comme méthode de cloisennement au niveau du système d'opération.
+> **Note** : Un conteneur est un système logiciel utlisant l'isolation comme méthode de cloisennement au niveau du système d'exploitation.
 
 > **Note** : https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-que-docker/
 
