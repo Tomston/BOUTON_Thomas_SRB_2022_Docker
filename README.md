@@ -39,6 +39,11 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 Voici l'architecture du projet : 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.png)
 
+Voici la liste des systèmes d'exploitation :
+* Application : *Alpine Linux*
+* API : *Alpine Linux*
+* Base de données : *Compatible avec Linux, Windows et Mac*
+
 De plus, voici ci-dessous la liste des ports utilisés :
 * Port 3000: *utilisé par l'application*
 * Port 8080: *utilisé par l'API rest*
@@ -46,7 +51,8 @@ De plus, voici ci-dessous la liste des ports utilisés :
 
 ## Fonctionnement de l'architecture
 
-L'application est sous Alpine Linux (distribution ultra-légère de Linux).
+L'application Node.js devra authentifier un utilisateur déjà inscrit et lui donner accès à un feed utilisateur
+
 Depuis le navigateur Web, nous pouvons nous inscrire en renseignant une adresse mail, un nom d'utilisateur et un mot de passe (avec au moins un majuscule, un chiffre et un caractère spéciale) comme ci-dessous :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
