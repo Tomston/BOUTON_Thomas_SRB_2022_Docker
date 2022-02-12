@@ -41,7 +41,7 @@ Voici l'architecture du projet :
 
 Voici la liste des systèmes d'exploitation :
 * Application : *Alpine Linux*
-* API : *Alpine Linux*
+* API rest : *Alpine Linux*
 * Base de données : *Compatible avec Linux, Windows et Mac*
 
 De plus, voici ci-dessous la liste des ports utilisés :
