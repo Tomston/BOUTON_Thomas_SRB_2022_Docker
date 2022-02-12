@@ -35,6 +35,8 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 ## Fonctionnement de l'architecture
 
 
+A[Square Rect] --> B((Circle)) --> C(Round Rect)
+
 
 ## Fonctionnement des Dockerfile
 
