@@ -36,10 +36,6 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 
 ## Fonctionnement de l'architecture
 
-```mermaid
-graph LR
-A[Square Rect] --> B((Circle)) --> C(Round Rect)
-
 
 ## Fonctionnement des Dockerfile
 
