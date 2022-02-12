@@ -36,6 +36,7 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 
 ## Fonctionnement de l'architecture
 
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/schema.drawio)
 
 ## Fonctionnement des Dockerfile
 
