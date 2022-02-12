@@ -42,7 +42,7 @@ Voici l'architecture du projet :
 
 > **liste des ports utilisés :**
 > * *port 3000: utilisé par l'application*
-> * *port 8080: utilisé par l'API rest*
+> - *port 8080: utilisé par l'API rest*
 > + *port 27017: utilisé par la base de données*
 
 ## Fonctionnement de l'architecture
