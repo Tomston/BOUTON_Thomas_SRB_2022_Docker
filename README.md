@@ -47,9 +47,13 @@ De plus, voici ci-dessous la liste des ports utilisés :
 ## Fonctionnement de l'architecture
 
 L'application est sous Alpine Linux (distribution ultra-légère de Linux).
-Depuis le navigateur Web, nous pourons nous inscrire en renseignant une adresse mail, un nom d'utilisateur et un mot de passe (avec au moins un majuscule, un chiffre et un caractère spéciale) comme ci-dessous :
+Depuis le navigateur Web, nous pouvons nous inscrire en renseignant une adresse mail, un nom d'utilisateur et un mot de passe (avec au moins un majuscule, un chiffre et un caractère spéciale) comme ci-dessous :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
+
+En parallèle, le serveur exécute l'api
+
+À ce moment là, l'API rest transmettra les données à la base de données (MongoDB) afin que celle-ci enregistre les données dans sa base.
 
 Ensuite, nous renseignons notre mail et notre mot de passe que nous avons créons à l'étape précédente :
 
@@ -59,6 +63,7 @@ La connexion est établi et nous pouvons publier un post :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image6.png)
 
+> **Note** : https://www.redhat.com/fr/topics/api/what-is-a-rest-api
 
 ## Fonctionnement des Dockerfile
 
