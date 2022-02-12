@@ -57,12 +57,13 @@ Depuis l'application Web, l'utilisateur poura s'inscrire en renseignons un email
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
 
-L'API rest transmet ensuite les informations de l'utilisateur via des requêtr
+Puis, l'API rest récupère les informations de l'utilisateur via une requête HTTP "GET" et les transmets via une requête HTTP "POST" à la base de données MongoDB.
 
-
-Ensuite, nous renseignons notre mail et notre mot de passe que nous avons créons à l'étape précédente :
+Ensuite, l'utilisateur renseigne l'email et le mot de passe qu'il avait créé lors de son inscription comme ci-dessous:
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image5.png)
+
+À cette étape, l'API rest récupère les identifiants de l'utilisateur via une requête HTTP "GET"***
 
 La connexion est établi et nous pouvons publier un post :
 
