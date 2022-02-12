@@ -48,10 +48,13 @@ De plus, voici ci-dessous la liste des ports utilisés :
 
 L'application sous Alpine Linux (distribution ultra-légère de Linux) devra fournir un compte aux utilisateurs enregistrés. 
 
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image5.png)
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image6.png)
 
 
 ## Fonctionnement des Dockerfile
 
-![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image7.png)
 
 ## Fonctionnement du docker-compose.yml
