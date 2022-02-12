@@ -11,7 +11,7 @@ Cependant, il ne faut pas confondre la virtualisation et la conteneurisation. La
 
 Pour finir, les conteneurs permettent à une application d'être empaquetée et déplacée facilement, augmentant ainsi la simplicité d'une infrastructure.
 
-https://fr.wikipedia.org/wiki/Docker_(logiciel)
+> **Note** : https://fr.wikipedia.org/wiki/Docker_(logiciel)
 
 
 ## Fonctionnement de l'architecture
