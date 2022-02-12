@@ -36,7 +36,8 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 
 ## Architecture du projet
 
-Voici l'architecture du projet : ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.png)
+Voici l'architecture du projet : 
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.png)
 
 De plus, voici ci-dessous la liste des ports utilisés :
 * Port 3000: *utilisé par l'application*
@@ -44,6 +45,8 @@ De plus, voici ci-dessous la liste des ports utilisés :
 * Port 27017: *utilisé par la base de données*
 
 ## Fonctionnement de l'architecture
+
+L'application sous Alpine Linux (distribution ultra-légère de Linux) devra fournir un compte aux utilisateurs enregistrés. 
 
 
 
