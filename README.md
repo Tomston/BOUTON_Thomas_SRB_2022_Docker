@@ -9,6 +9,8 @@ Les points forts de Docker sont sa flexibilité et sa légèreté. En effet, les
 
 Cependant, il ne faut pas confondre la virtualisation et la conteneurisation. La conteneurisation est une forme plus légère qui s'appuie sur certaines parties de la machine hôte pour fonctionner.
 
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image.png)
+
 Pour finir, les conteneurs permettent à une application d'être empaquetée et déplacée facilement, augmentant ainsi la simplicité d'une infrastructure.
 
 > **Note** : https://fr.wikipedia.org/wiki/Docker_(logiciel)
@@ -21,8 +23,6 @@ Le principe de fonctionnement de Docker est simimaire à celui de LXC :
 2. Des conteneurs en cours d'exécution sont isolés les uns des autres et on uniquement accèes à une quantité limitée de ressources système.
 
 > **Note** : https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-que-docker/
-
-![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image.png)
 
 > **Note** : LXC est un système de virtualisation utlisant l'isolation comme méthode de cloisennement au niveau du système d'exploitation.
 
