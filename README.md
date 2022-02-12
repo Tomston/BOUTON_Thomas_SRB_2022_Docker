@@ -46,11 +46,14 @@ De plus, voici ci-dessous la liste des ports utilisés :
 
 ## Fonctionnement de l'architecture
 
-L'application sous Alpine Linux (distribution ultra-légère de Linux) devra fournir un compte aux utilisateurs enregistrés. 
-
+L'application est sous Alpine Linux (distribution ultra-légère de Linux).
+Depuis le navigateur Web, nous pourons nous inscrire en renseignant une adresse mail, un nom d'utilisateur et un mot de passe (avec au moins un majuscule, un chiffre et un caractère spéciale) comme ci-dessous :
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
-4
+
+Ensuite, nous renseignons notre mail et notre mot de passe que nous avons créons à l'étape précédente :
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image5.png)
+
+La connexion est établi et nous pouvons publier un post :
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image6.png)
 
 
