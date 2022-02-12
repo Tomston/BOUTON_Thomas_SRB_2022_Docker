@@ -37,7 +37,6 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 ## Architecture du projet
 
 Voici l'architecture du projet :
-
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.png)
 
 De plus, voici ci-dessous la liste des ports utilisés :
