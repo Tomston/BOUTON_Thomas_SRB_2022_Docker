@@ -3,7 +3,7 @@
 ## Qu'est-ce que Docker ?
 
 Pour commencer, Docker est un logiciel permettant de lancer des applications dans des conteneurs logiciels. 
-Un conteneur permet aux développeurs d'isoler leurs applications de leur environnement. En effet, un conteneur enveloppe une application et ses dépendances de façon à les isoler pour être exécuté sur n'importe quel serveur ou machine.
+Un conteneur permet aux développeurs d'isoler leurs applications de leur environnement. En effet, un conteneur enveloppe une application et ses dépendances de façon à les isoler pour les exécuter sur n'importe quel serveur ou machine.
 
 Les points forts de Docker sont sa flexibilité et sa légèreté. En effet, les conteneurs Docker sont construits à partir des images Docker (quelques MB au minimum) et permettent aux développeurs de créer, déployer et exécuter efficacement des applications distribuées.
 
