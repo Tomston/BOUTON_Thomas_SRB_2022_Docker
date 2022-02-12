@@ -34,9 +34,20 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 > **Note** : https://www.redhat.com/fr/topics/containers/what-is-docker#comment-fonctionne-la-technologie-docker
 
 
-## Fonctionnement de l'architecture
+## Architecture du projet
+
+Voici l'architecture du projet :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.png)
+
+> **Note** : *liste des ports utilisés : *
+> 1. *port 3000: utilisé par l'application*
+> 2. *port 8000: utilisé par l'API rest*
+> 3. *port 8080: utilisé par la base de données*
+
+## Fonctionnement de l'architecture
+
+
 
 ## Fonctionnement des Dockerfile
 
