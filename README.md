@@ -41,9 +41,9 @@ Voici l'architecture du projet :
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.png)
 
 > **liste des ports utilisés :**
-> *port 3000: utilisé par l'application*
-> *port 8080: utilisé par l'API rest*
-> *port 27017: utilisé par la base de données*
+> 1. *port 3000: utilisé par l'application*
+> 2. *port 8080: utilisé par l'API rest*
+> 3. *port 27017: utilisé par la base de données*
 
 ## Fonctionnement de l'architecture
 
