@@ -16,7 +16,10 @@ Pour finir, les conteneurs permettent à une application d'être empaquetée et 
 
 ## Fonctionnement de Docker
 
-> **Note** : https://www.redhat.com/fr/topics/containers/what-is-docker#les-avantages-des-conteneurs-docker
+Docker utilise le noyau Linux (Kernel) et des fonction de ce noyau pour séparer les processus afin qu'ils s'exécutent de façon independante.
+Le but de cette séparation est d'optimiser l'utilisation de notre infrastructure tout en bénéficiant du même niveau se sécurité que celui des systèmes distincts.
+
+> **Note** : https://www.redhat.com/fr/topics/containers/what-is-docker#comment-fonctionne-la-technologie-docker
 
 ## Fonctionnement de l'architecture
 
