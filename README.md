@@ -36,10 +36,10 @@ Le but de cette séparation est d'optimiser l'utilisation de notre infrastructur
 
 ## Fonctionnement de l'architecture
 
-![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.PNG)
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image3.png)
 
 ## Fonctionnement des Dockerfile
 
-![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.PNG)
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
 
 ## Fonctionnement du docker-compose.yml
