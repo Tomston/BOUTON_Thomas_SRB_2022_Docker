@@ -75,7 +75,7 @@ Voici un schéma résumant le fonctionnement d'une API rest :
 
 > **Note** : https://www.redhat.com/fr/topics/api/what-is-a-rest-api
 
-## Fonctionnement des Dockerfile
+## Dockerfile
 
 Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
@@ -85,4 +85,6 @@ Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
 > **Dockerfile pour l'API rest** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/backend/Dockerfile
 
-## Fonctionnement du docker-compose.yml
+## docker-compose.yml
+
+> **docker-compose pour les 3 services** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/docker-compose.yml
