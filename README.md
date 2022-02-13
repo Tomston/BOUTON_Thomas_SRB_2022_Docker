@@ -103,3 +103,5 @@ Docker Compose est un logiciel utilisé pour définit et exécuter des applicati
 Le fichier YAML configure les services de l'application et inclut des règles spécifiant la manière dont nous souhaitons qu'ils s'exécutent. Lorsque le fichier est créé, nous pouvons démarrer, arrêter ou reconstruire tous les services à l'aide d'une seule commande Docker. 
 
 > **docker-compose pour les 3 services (commenté)** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/docker-compose.yml
+
+> **Note** : https://phoenixnap.com/kb/docker-compose
