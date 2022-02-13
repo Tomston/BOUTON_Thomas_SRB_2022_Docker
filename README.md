@@ -57,22 +57,26 @@ Depuis l'application Web, l'utilisateur poura s'inscrire en renseignons un email
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image4.png)
 
-Puis, l'API rest récupère les informations de l'utilisateur via une requête HTTP "GET" et les transmets via une requête HTTP "POST" à la base de données MongoDB.
+À ce moment là, l'application envoie une requêtte HTTP "POST" à l'API rest pour envoyer les données confidentielles du nouveau utilisateur à la base de données MongoDB. L'API se chargera de transmettre les données à la base de données et de renvoyer un fichier .JSON au client (à l'application).  
 
 Ensuite, l'utilisateur renseigne l'email et le mot de passe qu'il avait créé lors de son inscription comme ci-dessous:
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image5.png)
 
-À cette étape, l'API rest récupère les identifiants de l'utilisateur via une requête HTTP "GET"***
+À cette étape, l'application envoie une requête HTTP "GET" à l'API rest pour vérifier que la ressource est bien présente dans la base de données MongoDB. L'API se chargera de vérifier l'existence de cette ressource et de renvoyer un fichier .JSON au client (à l'application).
 
-La connexion est établi et nous pouvons publier un post :
+Lorsque les deux requêtes précédente ont été réalisés, la connexion à l'application est établi et l'utilisateur poura publier un post s'il le souhaite :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image6.png)
+
+Voici un schéma résumant le fonctionnement d'une API rest :
+
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image7.png)
 
 > **Note** : https://www.redhat.com/fr/topics/api/what-is-a-rest-api
 
 ## Fonctionnement des Dockerfile
 
-![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image7.png)
+![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image8.png)
 
 ## Fonctionnement du docker-compose.yml
