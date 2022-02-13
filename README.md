@@ -81,4 +81,8 @@ Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image8.png)
 
+> **Dockerfile pour l'application Node.js** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/frontend/Dockerfile
+
+> **Dockerfile pour l'API rest** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/backend/Dockerfile
+
 ## Fonctionnement du docker-compose.yml
