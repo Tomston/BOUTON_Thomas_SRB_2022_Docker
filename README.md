@@ -81,6 +81,9 @@ Un Dockerfile est un fichier qui contient une série de commandes ou d'instructi
 
 > **Note** : Lors de la création du Dockerfile, les actions successives forment une nouvelle image à partir de l'image parente de base (c'est ce que l'on appelle "layers" ou "couches" en français)
 
+Lorsque notre Dockerfile et les instructions définit, nous pouvons "build" ou tout simplement construire notre image Docker (personnalisée). 
+Nous pourrons ensuite créer un conteneur et lui assigner l'image que nous avons créer avec notre Dockerfile.
+
 Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image8.png)
