@@ -77,14 +77,18 @@ Voici un schéma résumant le fonctionnement d'une API rest :
 
 ## Dockerfile
 
+Un Dockerfile est un fichier qui contient une série de commandes ou d'instructions. Ces instructions sont exécutées dans l'orfre danns lequel elles sont écrites et sont exécutés sur une image de base définit avec l'instruction "FROM".
+
+> **Note** : Lors de la création du Dockerfile, les actions successives forment une nouvelle image à partir de l'image parente de base (c'est ce que l'on appelle "layers" ou "couches" en français)
+
 Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image8.png)
 
-> **Dockerfile pour l'application Node.js** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/frontend/Dockerfile
+> **Dockerfile pour l'application Node.js (commenté)** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/frontend/Dockerfile
 
-> **Dockerfile pour l'API rest** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/backend/Dockerfile
+> **Dockerfile pour l'API rest (commenté)** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/backend/Dockerfile
 
 ## docker-compose.yml
 
-> **docker-compose pour les 3 services** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/docker-compose.yml
+> **docker-compose pour les 3 services (commenté)** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/docker-compose.yml
