@@ -65,7 +65,7 @@ Ensuite, l'utilisateur renseigne l'email et le mot de passe qu'il avait créé l
 
 À cette étape, l'application envoie une requête HTTP "GET" à l'API rest pour vérifier que la ressource est bien présente dans la base de données MongoDB. L'API se chargera de vérifier l'existence de cette ressource et de renvoyer un fichier .JSON au client (à l'application).
 
-Lorsque les deux requêtes précédente ont été réalisés, la connexion à l'application est établi et l'utilisateur poura publier un post s'il le souhaite :
+Lorsque les deux requêtes précédente ont été réalisés, la connexion à l'application est établi et l'utilisateur poura publier un post s'il le souhaite.
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image6.png)
 
@@ -76,6 +76,8 @@ Voici un schéma résumant le fonctionnement d'une API rest :
 > **Note** : https://www.redhat.com/fr/topics/api/what-is-a-rest-api
 
 ## Fonctionnement des Dockerfile
+
+Voici un schéma résument le fonctionnement d'un Dockerfile
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image8.png)
 
