@@ -77,7 +77,7 @@ Voici un schéma résumant le fonctionnement d'une API rest :
 
 ## Dockerfile
 
-Un Dockerfile est un fichier qui contient une série de commandes ou d'instructions. Ces instructions sont exécutées dans l'orfre danns lequel elles sont écrites et sont exécutés sur une image de base définit avec l'instruction "FROM".
+Un Dockerfile est un fichier qui contient une série de commandes ou d'instructions. Ces instructions sont exécutées dans l'ordre danns lequel elles sont écrites. L'exécution de ces instructions a lieu sur une image de base définit avec l'instruction "FROM".
 
 > **Note** : Lors de la création du Dockerfile, les actions successives forment une nouvelle image à partir de l'image parente de base (c'est ce que l'on appelle "layers" ou "couches" en français)
 
