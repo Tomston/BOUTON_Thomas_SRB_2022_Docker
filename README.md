@@ -92,6 +92,8 @@ Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
 > **Dockerfile pour l'API rest (commenté)** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/backend/Dockerfile
 
+> **Note** : https://geekflare.com/fr/dockerfile-tutorial/
+
 ## docker-compose.yml
 
 > **docker-compose pour les 3 services (commenté)** : https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/docker-compose.yml
