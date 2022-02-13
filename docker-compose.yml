@@ -1,0 +1,59 @@
+version: '3.9'
+
+# définition de nos 3 services
+services:
+
+# service de la base de données
+ mongo:
+  # image à partir de laquelle le conteneur va démarrer
+  image: mongo:3.4
+  # ajoute un volume/répertoire pour stocker les données
+  volumes:
+   - data:/data/db
+  # indique le port utilisé par la machine host et par le conteneur
+  ports:
+   - "27017:27017"
+  # permet de redémarrer le conteneur si le code de sortie indique une erreur
+  restart: always
+  # déinit le service dans le réseau : backend
+  networks:
+   - backend 
+
+# service de l'api
+ api:
+  # spécifie le Dockerfile source et son chemin pour créer l'image du conteneur du service api
+  build: 
+   context: ./backend
+   dockerfile: Dockerfile
+  # indique le port utilisé par la machine host et par le conteneur
+  ports:
+   - "8080:8080"
+  # permet de redémarrer le conteneur si le code de sortie indique une erreur
+  restart: always
+  # déinit le service dans le réseau : backend
+  networks:
+   - backend
+
+# service de l'application
+ application:
+  # spécifie le Dockerfile source et son chemin pour créer l'image du conteneur du service application
+  build: 
+   context: ./frontend
+   dockerfile: Dockerfile
+  # indique le port utilisé par la machine host et par le conteneur
+  ports:
+   - "3000:3000"
+  # permet de redémarrer le conteneur si le code de sortie indique une erreur
+  restart: always
+  # déinit le service dans le réseau : frontend
+  networks:
+   - frontend 
+
+# ajout d'un répertoire (/data) pour stocker les emails, les noms des utilisateurs et les mots de passe pour le service mongo
+volumes:
+ data: {}
+
+# création de deux réseaux pour isoler les services, backend (base de données et api) et frontend (application web)
+networks:
+ backend:
+ frontend:
