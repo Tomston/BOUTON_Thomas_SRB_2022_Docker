@@ -77,7 +77,7 @@ Voici un schéma résumant le fonctionnement d'une API rest :
 
 ## Fonctionnement des Dockerfile
 
-Voici un schéma résument le fonctionnement d'un Dockerfile
+Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
 ![alt text](https://github.com/Tomston/Bouton_Thomas_SRB_2022_Docker/blob/main/Image8.png)
 
