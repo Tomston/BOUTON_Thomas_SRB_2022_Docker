@@ -7,6 +7,7 @@ COPY package.json /app/package.json
 
 # installation de npm : gestionnaire de fichier sous node.js
 # installation par défaut de tous les paquets présent dans package.json dont react.js (car aucun paquet spécifique n'est renseigné après npm install)
+# déplacement dans le dossier /app
 RUN cd /app && npm install
 
 # copie le code applicatif dans le dossier /app/
