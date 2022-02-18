@@ -98,7 +98,7 @@ Voici un schéma résumant l'utilisation du Dockerfile et de son image :
 
 ## docker-compose.yml
 
-Docker Compose est un logiciel utilisé pour définit et exécuter des applications Docker multi-conteneurs (cela évite de démarrer et de gérer manuellement chaque conteneur). Il fonctionne en appliquant les règles définies dans un fichier docker-compose.yaml.
+Docker Compose est un logiciel utilisé pour définir et exécuter des applications Docker multi-conteneurs (cela évite de démarrer et de gérer manuellement chaque conteneur). Il fonctionne en appliquant les règles définies dans un fichier docker-compose.yaml.
 
 Le fichier YAML configure les services de l'application et inclut des règles spécifiant la manière dont nous souhaitons qu'ils s'exécutent. Lorsque le fichier est créé, nous pouvons démarrer, arrêter ou reconstruire tous les services à l'aide d'une seule commande Docker.
 
