@@ -106,10 +106,13 @@ Le fichier YAML configure les services de l'application et inclut des règles sp
 
 > **Note** : https://phoenixnap.com/kb/docker-compose
 
-## Annexes 
+## Annexes
 
-> **Node.JS** : 
+> **Node.JS** : Node.js est un environnement d’exécution JavaScript open source, multi-plateforme et back-end qui s’exécute sur le moteur V8 et exécute du code JavaScript en dehors d’un navigateur Web. Node.js permet aux développeurs d’utiliser JavaScript pour écrire des outils de ligne de commande et pour les scripts côtés serveurs, c’est-à-dire exécuter des scripts côté serveur pour produire du contenu de page Web dynamique avant que la page ne soit envoyée au navigateur Web de l’utilisateur.
+> https://en.wikipedia.org/wiki/Node.js
 
-> **React.JS** :
+> **React.JS** : React (également connu sous le nom de React.js ou ReactJS) est une bibliothèque JavaScript frontale gratuite et open-source permettant de créer des interfaces utilisateur basées sur des composants d’interface utilisateur. Il est maintenu par Meta (anciennement Facebook) et une communauté de développeurs individuels et d’entreprises. React peut être utilisé comme base dans le développement d’applications mono pages ou mobiles. Cependant, React ne concerne que la gestion des états et le rendu de cet état au DOM, de sorte que la création d’applications React nécessite généralement l’utilisation de bibliothèques supplémentaires pour le routage, ainsi que certaines fonctionnalités côté client.
+> https://en.wikipedia.org/wiki/React_(JavaScript_library)
 
-> **MongoDB** : 
+> **MongoDB** : MongoDB est un programme de base de données multi-plateforme orienté document disponible à la source. Classé comme un programme de base de données NoSQL, MongoDB utilise des documents de type JSON avec des schémas facultatifs. MongoDB est développé par MongoDB Inc. et sous licence SSPL (Server Side Public License).
+> https://en.wikipedia.org/wiki/MongoDB
