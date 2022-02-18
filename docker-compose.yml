@@ -15,7 +15,7 @@ services:
    - "27017:27017"
   # permet de redémarrer le conteneur si le code de sortie indique une erreur
   restart: always
-  # déinit le service dans le réseau : backend
+  # définit le service dans le réseau : backend
   networks:
    - backend 
 
